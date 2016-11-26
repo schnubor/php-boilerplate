@@ -25,7 +25,7 @@ the URL is supposed to be (e.g. for example.com/about name it `account`).
 
 Create a new `index.php` within that directory:
 
-```html
+```php
 <?php
 require_once(realpath(dirname(__FILE__) . "/../resources/config.php"));
 require_once(LIBRARY_PATH . "/templateFunctions.php");
