@@ -13,7 +13,6 @@ $currentPage = "Features";
         <?php require_once(TEMPLATES_PATH . '/navigation.php'); ?>
 
         <div class="container">
-            <hr>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card text-xs-center">

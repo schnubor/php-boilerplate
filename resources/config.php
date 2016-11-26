@@ -13,6 +13,6 @@ defined("ASSETS_PATH")
 
 $pages = [
     "Features" => "/",
-    "About" => "/about"
+    "Usage" => "/usage"
 ];
 ?>
