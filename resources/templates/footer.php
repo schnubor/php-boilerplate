@@ -1,6 +1,7 @@
 <footer>
     <div class="container">
         <hr>
+        <small class="pull-right">© 2016</small>
     </div>
 </footer>
 
