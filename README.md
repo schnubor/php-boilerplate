@@ -54,3 +54,13 @@ $currentPage = {pagename};
 
 - Replace `{pagename}`, `{title}` and `{description}` with actual content.
 - Open `resources/config.php` and add the new page to the `$page` array.
+
+### LESS
+
+Don't edit CSS directly in the `assets` directory if you want to use LESS.
+Instead, edit the `resource/main.less` file, it will automatically be compiled
+to a `main.css` in the `assets` folder. This CSS file should be used in production.
+
+## License
+
+MIT - enjoy :)
