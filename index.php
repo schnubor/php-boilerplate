@@ -50,5 +50,6 @@ $currentPage = "Features";
         </div>
 
         <?php require_once(TEMPLATES_PATH . '/footer.php'); ?>
+        <?php require_once(TEMPLATES_PATH . '/analyticsTracking.php'); ?>
     </body>
 </html>

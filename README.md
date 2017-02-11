@@ -21,7 +21,7 @@ http://localhost:8000/
 ### Create new pages
 
 To create a new page create a new folder in the root directory and name it like
-the URL is supposed to be (e.g. for example.com/about name it `account`).
+the URL is supposed to be (e.g. for example.com/about name it `about`).
 
 Create a new `index.php` within that directory:
 
@@ -53,13 +53,17 @@ $currentPage = {pagename};
 ```
 
 - Replace `{pagename}`, `{title}` and `{description}` with actual content.
-- Open `resources/config.php` and add the new page to the `$page` array.
+- Open `resources/data/pages.php` and add the new page to the `$page` array.
 
 ### LESS
 
 Don't edit CSS directly in the `assets` directory if you want to use LESS.
 Instead, edit the `resource/main.less` file, it will automatically be compiled
 to a `main.css` in the `assets` folder. This CSS file should be used in production.
+
+### Google Analytics
+
+You can add your GA Tracking ID in the `config.php` and add the following template to each side you want to track: `<?php require_once(TEMPLATES_PATH . '/analyticsTracking.php'); ?>`
 
 ## License
 
