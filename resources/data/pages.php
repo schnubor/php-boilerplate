@@ -2,6 +2,6 @@
 // pages array
 $pages = [
     "Features" => "/",
-    "Usage" => "/usage"
+    "How To" => "/howto"
 ];
 ?>

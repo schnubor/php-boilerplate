@@ -2,13 +2,13 @@
 require_once(realpath(dirname(__FILE__) . "/../resources/config.php"));
 require_once(LIBRARY_PATH . "/templateFunctions.php");
 
-$currentPage = "Usage";
+$currentPage = "How To";
 ?>
 
 <!DOCTYPE html>
 <html>
     <?php renderHead(
-        "PHP Boilerplate - Usage",
+        "PHP Boilerplate - How To",
         "How to use PHP Boilerplate."
     ); ?>
     <body>
@@ -16,7 +16,7 @@ $currentPage = "Usage";
         <?php require_once(TEMPLATES_PATH . '/navigation.php'); ?>
 
         <div class="container">
-            <h1>Usage</h1>
+            <h1>How To</h1>
 
             <p class="lead">
                 This an example site. For a full description on how to use please refer to the
